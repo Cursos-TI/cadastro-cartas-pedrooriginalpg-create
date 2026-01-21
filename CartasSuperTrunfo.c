@@ -1,6 +1,6 @@
 #include <stdio.h> 
   /*
-  Biblioteca enteda e saida da linguaguem em C e sem ela não poderiamos usar printf ou scanf
+  Biblioteca enteda e saida da linguaguem em C e sem ela não poderiamos usar printf ou scanf.
   */
 
 int main()
@@ -52,24 +52,74 @@ int main()
         */
 
   printf("digite a populacao da cidade: ");
-  scanf("%d", &populacao);
+  scanf("%d", &populacao); 
+        /*
+       Solicita ao usuário que informe a população da cidade e lê um número inteiro digitado pelo usuário.
+        O símbolo & indica o endereço de memória da variável populacao.
+        */
 
   printf("digite a area da cidade (km²): ");
-  scanf("%f", &area);
+  // scanf("%f", &area); 
+        /*
+        Solicita a área territorial da cidade e lê um número do tipo float (decimal)
+         armazenando  na variável area.
+        */
+ 
   
   printf("digite o PIB da cidade (em bilhoes): ");
-  scanf("%f",&pontosturisticos: );
+  scanf("%f",&pontosturisticos: ); 
+        /*
+         Solicita o valor do PIB da cidade e lê um número decimal para armazena na variável pib.
+        */
 
    printf("Digite o numero de pontos turisticos");
   scanf("%d, &pontosturisticos: ");
+        /*
+         Solicita a quantidade de pontos turísticos da cidadee,transforma em número inteiro que é armazenado
+        na variável pontosTuristicos.
+        */
 
+
+  
   //Área para exibicao dos dados da cidade
-printf("\n===== carta super trunfo=====\nn");
-  printf("cidade: %s\n, cidade");
-printf("populacao: %d habitantes\n, populacao");
-  printf("Area: %.2f kn²\n",area);
-  printf("PIB: %2.f bilhoes\n", pib);
-  prinf("pontosd turisticos: %d\n, pontosturisticos");
 
-  return 0;
+
+
+  
+ printf("super trunfo cidades");
+        /*
+        Exibe o título da carta e o \n serve para pular uma linha no terminal.
+        */
+
+    printf("Cidade: %s\n", cidade);
+        /*
+        Exibe o nome da cidade e %s é o especificador para strings.
+        */
+
+    printf("Populacao: %d habitantes\n", populacao);
+        /*
+        Exibe a população da cidade e %d é usado para números inteiros.
+        */
+
+    printf("Area: %.2f km²\n", area);
+        /*
+        Exibe a área da cidade e %.2f limita o número a duas casas decimais.
+        */
+
+    printf("PIB: %.2f bilhoes\n", pib);
+        /*
+        Exibe o PIB da cidade com duas casas decimais.
+        */
+
+    printf("Pontos Turisticos: %d\n", pontosTuristicos);
+        /*
+        Exibe a quantidade de pontos turísticos da cidade.
+        */
+
+    return 0;
+        /*
+        Encerra a função main.
+        Retornar 0 indica que o programa terminou corretamente,
+        sem erros.
+        */
 }
